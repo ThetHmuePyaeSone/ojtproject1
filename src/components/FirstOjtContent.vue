@@ -1,8 +1,9 @@
 <template>
-<div class="firstcontent">
-<h2>Hello My Friends</h2>
-</div><!-- end of firstojt div -->
+    <div class="firstcontent">
+        <h2>Hello My Friends</h2>
+    </div><!-- end of firstojt div -->
 </template>
+
 <script>
 export default {
 name:'FirstComponent'

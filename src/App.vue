@@ -1,10 +1,11 @@
 <template>
-  <div id="app">
-  <Header />
-  <FirstContent />
-  <Footer />
-  </div> <!--end of app div -->
+    <div id="app">
+      <Header />
+      <FirstContent />
+      <Footer />
+    </div> <!--end of app div -->
 </template>
+
 <script>
 import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
