@@ -1,19 +1,18 @@
 <template>
-<div class="css">
+<div class="firstcontent">
 <h2>Hello My Friends</h2>
-</div>
+</div><!-- end of firstojt div -->
 </template>
 <script>
 export default {
-   name:'FirstComponent'
+name:'FirstComponent'
 }
 </script>
 <style scoped>
-.css{
-    padding: 250px;
+.firstcontent{
+    padding: 284px;
+    margin-left: 50px;
+    margin-right: 50px;
     background-color: rgb(235, 229, 236);
-   
-    
-}
-
+    }
 </style>

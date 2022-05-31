@@ -1,5 +1,5 @@
 <template>
-    <h2>Copyright</h2>
+    <h2 class="footer">Copyright</h2>
 </template>
 <script>
 export default {
@@ -7,13 +7,11 @@ export default {
 }
 </script>
 <style scoped>
-h2{
-    background-color: rgb(148, 57, 234);
+.footer{
+   background-color: rgb(126, 49, 104);
    color: white;
-   
    bottom:0;
-   width:100%;
-   height:40px;   /* Height of the footer */
+   height:40px;  
    padding-top: 10px;
 }
 </style>
