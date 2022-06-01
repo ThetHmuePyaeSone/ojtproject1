@@ -1,6 +1,7 @@
 <template>
     <h2 class="footer">Copyright</h2>
 </template>
+
 <script>
 export default {
     name:'FooterComponent'

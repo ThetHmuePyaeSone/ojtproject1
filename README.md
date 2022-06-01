@@ -1,4 +1,4 @@
-# ojtproject1
+# ojtproject2
 
 ## Project setup
 ```

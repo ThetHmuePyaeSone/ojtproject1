@@ -1,24 +1,26 @@
 <template>
-    <div id="app">
-      <Header />
-      <FirstContent />
-      <Footer />
-    </div> <!--end of app div -->
+  <div id="app">
+    <Header />
+    <SecondContent />
+    <Footer />
+  </div>
 </template>
 
 <script>
 import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
-import FirstContent from './components/FirstOjtContent.vue';
+import SecondContent from './components/SecondOjtContent.vue';
 
-export default {
+export default{
+  
   components:{
     Header,
     Footer,
-    FirstContent,
-    }
+    SecondContent
+  }
 }
 </script>
+
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

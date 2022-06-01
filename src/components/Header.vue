@@ -1,9 +1,15 @@
 <template>
-    <h2 class="header">Welcome My Blog</h2>
+  <h2 class="header">{{ name }}</h2>
 </template>
+
 <script>
 export default{
-    name:'HeaderComponent'
+    name:'HeaderComponent',
+     data() {
+    return {
+      name: 'Welcome from OJT Project 2'
+    }
+  }
 }
 </script>
 <style scoped>
@@ -13,8 +19,4 @@ export default{
     height: 76px;
     padding-top: 33px;
 }
-* {
-    margin: 0;
-    padding: 0;
-} 
 </style>
